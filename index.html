@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title></title>
+	   <meta charset='utf-8'/>
+	   <link rel='stylesheet' type='text/css' href='css/index.css'/>
+   </head>
+   <body>
+       <div class='shadow'></div>
+       <div class='container'>
+	       <ul class='tab'>
+		       <li id='li1'>我的</li>
+		       <li id='li2'>内部项目</li>
+		       <li id='li3'>商户接入</li>
+		       <li id='li4'>渠道接入</li>
+			   <div><img src='img/line.png'/>菜单</div>
+		   </ul>
+		   <div id='tab1' class='tab-div'>
+		      <div class='bao' id='bao1'></div>
+		   </div>
+		   <div id='tab2' class='tab-div'>
+		      <div class='bao' id='bao2'></div>
+		   </div>
+		   <div id='tab3' class='tab-div'>
+		      <div class='bao' id='bao3'></div>
+		   </div>
+		   <div id='tab4' class='tab-div'>
+		      <div class='bao' id='bao4'></div>
+		   </div>
+		   <!--菜单-->
+		   <div class='list' id='list1'>
+		       <ul class='list-title'>
+			       <li>项目目录</li>
+			       <li><img src='img/plus.png'/></li>
+			   </ul>
+			   <div class='objContent'><div class='clear'></div></div>
+		   </div>
+		   <div class='list' id='list2'>
+		       <ul class='list-title'>
+			       <li>项目目录</li>
+			       <li><img src='img/plus.png'/></li>
+			   </ul>
+			   <div class='objContent'><div class='clear'></div></div>
+		   </div>
+		   <div class='list' id='list3'>
+		       <ul class='list-title'>
+			       <li>项目目录</li>
+			       <li><img src='img/plus.png'/></li>
+			   </ul>
+			   <div class='objContent'><div class='clear'></div></div>
+		   </div>
+		   <div class='list' id='list4'>
+		       <ul class='list-title'>
+			       <li>项目目录</li>
+			       <li><img src='img/plus.png'/></li>
+			   </ul>
+			   <div class='objContent'><div class='clear'></div></div>
+		   </div>
+		   <!--项目设置-->
+		   <div class='create'>
+		        <div class='create-title'>项目设置<a href>X</a></div>
+				项目名称:<br/>
+				<input type='text' placeholder='输入项目名称'/><br/>
+				选择分类:<br/>
+				<select id='select1'>
+				    <option value='2'>内部项目</option>
+				    <option value='3'>商户接入</option>
+				    <option value='4'>渠道接入</option>
+				</select>
+				<select id='select2'>
+				    <option value=''>商户名称</option>
+				</select><br/>
+				我的排序:<br/>
+				<select id='select3'>
+				    <option value=''>置顶</option>
+				</select><br/>
+				关联项目<br/>
+				<select id='select4' multiple>
+				    <option value='1'>这是第一个项目</option>
+				    <option value='2'>这是第二个项目</option>
+				    <option value='3'>这是第三个项目</option>
+				</select><br/>
+				邀请成员<br/>
+				<input type='text' placeholder='输入成员名字'/><br/>
+				<div id='button'>点击创建</div>
+		   </div>
+		   <!--点击保存-->
+		   <div class='create2'>
+		        <div class='create-title'>项目设置<a href>X</a></div>
+				项目名称:<br/>
+				<input type='text' placeholder='输入项目名称'/><br/>
+				选择分类:<br/>
+				<select id='select11'>
+				    <option value='2'>内部项目</option>
+				    <option value='3'>商户接入</option>
+				    <option value='4'>渠道接入</option>
+				</select>
+				<select id='select22'>
+				    <option value=''>商户名称</option>
+				</select><br/>
+				我的排序:<br/>
+				<select id='select33'>
+				    <option value=''>置顶</option>
+				</select><br/>
+				关联项目<br/>
+				<select id='select44'>
+				    <option value='1'>这是第一个项目</option>
+				    <option value='2'>这是第二个项目</option>
+				</select><br/>
+				邀请成员<br/>
+				<input type='text' placeholder='输入成员名字'/><br/>
+				<div id='button2'>保存</div>
+		   </div>
+		   <div class='update'>
+		       <div class='update-title'>详情更新</div><span>X</span>
+			   <div class='update-bottom'>
+			       原内容:<br/>
+			   <input type='text' placeholder='java' id='ipt1'/><div class='circle2'>java</div><br/>
+			       更新:<a>+添加</a><br/>
+				   <input type='text' placeholder='java' id='ipt2'/><div class='circle2'>java</div><img src='img/trash.png'/><br/>
+			       <div class='update-left'>
+				      邀请成员:<br/>
+					  <input type='text' placeholder='邀请成员'/>
+				   </div>
+			       <div class='update-center'>
+				      +点击上传文件<br/>
+					  <input type='file'/><br/>
+					  <div>确定</div>
+				   </div>
+			       <div class='update-right'>
+				      选择状态:<br/>
+					  <select >
+					      <option value='1' >需关注</option>
+					      <option value='2'>正在进行</option>
+					      <option value='3'>完成</option>
+					  </select>
+				   </div>
+			   </div>
+		   </div>
+	   </div>
+   </body>
+   <script src='js/jquery-3.1.1.min.js'></script>
+   <script src='js/index.js'></script>
+</html>
